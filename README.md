@@ -16,7 +16,7 @@ For simplicity, we will have the following day convention: each month has 30 day
 JAVA 8,
 Maven,
 Spring boot, Spring REST Docs ,
-JUnit / Mockito
+JUnit / Mockito, Lombok
 
 ## How to use
 ### Sample Request

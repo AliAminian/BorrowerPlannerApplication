@@ -1,0 +1,11 @@
+=== Borrower Plan
+Obtains a plan for loan by its information.
+
+==== Sample Request
+include::{snippets}/generate-plan/http-request.adoc[]
+
+==== Sample Response
+include::{snippets}/generate-plan/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/generate-plan/curl-request.adoc[]

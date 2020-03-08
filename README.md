@@ -9,7 +9,7 @@ For simplicity, we will have the following day convention: each month has 30 day
  &nbsp;&nbsp;&nbsp;Transaction:  <br/>
  &nbsp;&nbsp;&nbsp;Path: /generate-plan  <br/>
  &nbsp;&nbsp;&nbsp;Http methods: POST  <br/>
- &nbsp;&nbsp;&nbsp;Controller: BorrowerPlanController  <br/>
+ &nbsp;&nbsp;&nbsp;Controller: [BorrowerPlanController](BorrowerPlannerApplication/src/main/java/com/lendico/borrower/planner/api/controller/BorrowerPlanController.java) : Finding an account   <br/>
  &nbsp;&nbsp;&nbsp;Dto: 
 
 ## Tools and frameworks:

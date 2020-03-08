@@ -1,5 +1,5 @@
 # BorrowerPlannerApplication
-A Restful API that has one endpoint to generate a borrower plan via HTTP in JSON. Plan for loan by its information.
+A Restful API that has one endpoint to generate a borrower plan via HTTP in JSON. Plan is for a loan by its information.
 
 ## Assumptions
 For simplicity, we will have the following day convention: each month has 30 days , a year has 360 days .

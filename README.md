@@ -13,9 +13,9 @@ For simplicity, we will have the following day convention: each month has 30 day
  &nbsp;&nbsp;&nbsp;Dto: 
 
 ## Tools and frameworks:
-JAVA 8
-Maven
-Spring boot, Spring REST Docs 
+JAVA 8,
+Maven,
+Spring boot, Spring REST Docs ,
 JUnit / Mockito
 
 

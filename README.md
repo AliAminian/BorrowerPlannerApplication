@@ -5,17 +5,17 @@ A Restful API that has one endpoint to generate a borrower plan via HTTP in JSON
 For simplicity, we will have the following day convention: each month has 30 days , a year has 360 days .
 
 # Solution
-url : http://localhost:8080
-Transaction:
-Path: /generate-plan
-Http methods: POST
-Controller: BorrowerPlanController
-Dto: 
+ &nbsp;&nbsp;&nbsp;url : http://localhost:8080  <br/>
+ &nbsp;&nbsp;&nbsp;Transaction:  <br/>
+ &nbsp;&nbsp;&nbsp;Path: /generate-plan  <br/>
+ &nbsp;&nbsp;&nbsp;Http methods: POST  <br/>
+ &nbsp;&nbsp;&nbsp;Controller: BorrowerPlanController  <br/>
+ &nbsp;&nbsp;&nbsp;Dto: 
 
 ## Tools and frameworks:
 JAVA 8
 Maven
-Spring REST Docs , Spring boot
+Spring boot, Spring REST Docs 
 JUnit / Mockito
 
 

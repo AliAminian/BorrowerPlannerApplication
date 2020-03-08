@@ -18,8 +18,8 @@ Maven,
 Spring boot, Spring REST Docs ,
 JUnit / Mockito
 
-
-## Sample Request
+## How to use
+### Sample Request
 POST /generate-plan HTTP/1.1 <br/>
 Content-Type: application/json;charset=UTF-8 <br/>
 Accept: application/json;charset=UTF-8 <br/>
@@ -33,7 +33,7 @@ Content-Length: 84 <br/>
   &nbsp;&nbsp;&nbsp;"startDate":"2017-12-31T23:00:01Z" <br/>
 } <br/>
 
-## Sample Response
+### Sample Response
 HTTP/1.1 200 OK <br/>
 Content-Type: application/json;charset=UTF-8 <br/>
 Content-Length: 541 <br/>
@@ -65,9 +65,13 @@ Content-Length: 541 <br/>
 &nbsp;&nbsp;&nbsp;} <br/>
 ]
 
-## CURL sample
+### CURL sample
 
 $ curl 'http://localhost:8080/generate-plan' -i -X POST \ <br/>
     -H 'Content-Type: application/json;charset=UTF-8' \ <br/>
     -H 'Accept: application/json;charset=UTF-8' \ <br/>
     -d '{"loanAmount":100,"nominalRate":5.0,"duration":5,"startDate":"2017-12-31T23:00:01Z"}'
+
+### Build and Run:
+- mvn clean package
+- mvn spring-boot:run
